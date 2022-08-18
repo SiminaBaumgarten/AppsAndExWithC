@@ -23,7 +23,7 @@ int DecToBase(int base, int n){
     while(quotient != 0){
         remainder = quotient % base;
         quotient = quotient / base;
-        num = (remainder * (10 ^ i)) + num;
+        num = (remainder * pow(10, i)) + num;
         i++;
     }
     return num;
