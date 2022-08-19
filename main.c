@@ -9,11 +9,12 @@ int DecToBase(int base, int n);
 
 int main(){
     int i = 0;
-    int base = 2;
+    int base = 16;
     //int result = DecToBase(base, i);
-    for(i =0; i<=25; i++)
+    for(i =0; i<=25; i++){
     printf("The decimal number %d in base %d is %d \n", i, base, DecToBase(base, i));
     //printf("The decimal number %d in base %d is %d \n", i, base, DecToHexa(i));
+    }
     return 0;
 
 }
@@ -31,6 +32,10 @@ int DecToBase(int base, int n){
     }
     return convertedNum;
 }
+
+
+
+
 /*int DecToHexa(int num){
     int remainder;
     char hex=[], finalHex=[];
