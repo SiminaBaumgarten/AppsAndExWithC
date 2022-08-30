@@ -1,7 +1,5 @@
 # depslib dependency file v1.0
-1660911449 source:/home/geek4/Documents/Project/Projects/main.c
-	<math.h>
+1661846218 source:/home/geek4/Documents/Project/Projects/main.c
 	<stdio.h>
-	<string.h>
 	<stdlib.h>
 
